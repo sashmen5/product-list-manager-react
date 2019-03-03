@@ -15,7 +15,6 @@ class ProductsStore {
     @observable errorOccurred: boolean = false;
     @observable loadingProducts: boolean = false;
     @observable selectedProduct: Product;
-    @observable id: number = undefined;
     @observable showModal: boolean = false;
     @observable savedProductName: string = "";
 
@@ -109,7 +108,6 @@ class ProductsStore {
     selectProduct = (id: number) => {
         const product: Product = this.originalProducts.find(item => item.id === id);
         this.selectedProduct = {...product};
-        this.id = id;
     };
 
     @action
