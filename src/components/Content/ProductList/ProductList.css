@@ -1,0 +1,27 @@
+.ProductList {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; }
+  .ProductList .lds-dual-ring {
+    display: inline-block;
+    align-self: center;
+    width: 64px;
+    height: 64px; }
+  .ProductList .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid purple;
+    border-color: purple transparent purple transparent;
+    animation: lds-dual-ring 1.2s linear infinite; }
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=ProductList.css.map */

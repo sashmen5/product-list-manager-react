@@ -1,0 +1,55 @@
+.ProductItem {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  height: 100px;
+  cursor: pointer;
+  border: 1px solid #d1cece;
+  transition: all .15s ease;
+  justify-content: space-between;
+
+  &:hover {
+    border-color: purple;
+  }
+
+  .Information {
+    display: flex;
+    .Image {
+      width: 100px;
+      height: 100px;
+      margin-right: 5px;
+
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
+
+    .Text {
+      flex-direction: column;
+      padding: 5px;
+      text-transform: capitalize;
+
+      .Name {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .Description {
+        height: 55px;
+        overflow-y: auto;
+      }
+    }
+  }
+
+
+
+  button {
+    align-self: flex-end;
+  }
+}
+
+.Selected {
+  background-color: cornflowerblue;
+}
+

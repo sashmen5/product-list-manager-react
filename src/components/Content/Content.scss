@@ -1,0 +1,77 @@
+$break: 1000px;
+
+.Content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+
+  @media screen and (max-width: $break) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .LeftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px 30px 10px;
+    max-width: 500px;
+    min-width: 350px;
+    width: 100%;
+
+
+    .Bar {
+      display: flex;
+      align-items: center;
+      width: inherit;
+      justify-content: space-between;
+      height: 35px;
+
+      button {
+        margin-left: 12px;
+      }
+
+      select {
+        margin-right: 12px;
+      }
+    }
+  }
+
+  .RightSide {
+    margin: 35px 10px 10px 10px;
+    max-width: 500px;
+    min-width: 350px;
+    width: 100%;
+
+  }
+
+  .Pagination {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 0;
+
+    .Previous {
+      margin-right: 5px;
+    }
+
+    .Next {
+      margin-left: 5px;
+    }
+
+    li {
+      margin-right: 3px;
+      margin-left: 3px;
+      cursor: pointer;
+    }
+
+    .selected {
+      color: blue;
+    }
+
+    .Disabled {
+      color: darkgrey;
+      cursor: not-allowed;
+    }
+  }
+}

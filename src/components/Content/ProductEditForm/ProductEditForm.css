@@ -1,0 +1,39 @@
+.ProductEditForm {
+  background-color: white;
+  padding: 15px 25px; }
+  .ProductEditForm .Image {
+    margin-top: 10px; }
+    .ProductEditForm .Image img {
+      width: 100%; }
+  .ProductEditForm form {
+    width: calc(100%);
+    display: flex;
+    flex-direction: column; }
+    .ProductEditForm form .Error {
+      color: darkred;
+      text-decoration: underline; }
+    .ProductEditForm form label {
+      font-weight: bold;
+      margin-top: 10px; }
+    .ProductEditForm form input[type=text], .ProductEditForm form textarea {
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px; }
+    .ProductEditForm form input[type=submit] {
+      width: 100%;
+      background-color: purple;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer; }
+      .ProductEditForm form input[type=submit]:hover {
+        background-color: mediumpurple; }
+      .ProductEditForm form input[type=submit]:disabled {
+        border: 1px solid #999999;
+        background-color: #cccccc;
+        color: #666666; }
+
+/*# sourceMappingURL=ProductEditForm.css.map */

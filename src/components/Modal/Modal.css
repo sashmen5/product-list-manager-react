@@ -1,0 +1,31 @@
+.Modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(46, 49, 49, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .Modal .Area {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    font-size: 35px;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center; }
+    .Modal .Area span {
+      color: black; }
+    .Modal .Area button {
+      width: 130px;
+      height: 40px;
+      border-radius: 10px; }
+      .Modal .Area button:hover {
+        cursor: pointer; }
+
+/*# sourceMappingURL=Modal.css.map */

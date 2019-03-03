@@ -1,0 +1,10 @@
+.Header {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  height: 60px;
+  background: purple;
+  color: aliceblue;
+  font-size: x-large; }
+
+/*# sourceMappingURL=Header.css.map */
